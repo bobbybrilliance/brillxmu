@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB122DF2BA75B410035E252 /* brillxmuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB122DE2BA75B410035E252 /* brillxmuApp.swift */; };
+		5CB122E12BA75B410035E252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB122E02BA75B410035E252 /* ContentView.swift */; };
+		5CB122E32BA75B430035E252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB122E22BA75B430035E252 /* Assets.xcassets */; };
+		5CB122E62BA75B430035E252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB122E52BA75B430035E252 /* Preview Assets.xcassets */; };
+		5CB122F02BA75B430035E252 /* brillxmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB122EF2BA75B430035E252 /* brillxmuTests.swift */; };
+		5CB122FA2BA75B430035E252 /* brillxmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB122F92BA75B430035E252 /* brillxmuUITests.swift */; };
+		5CB122FC2BA75B430035E252 /* brillxmuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB122FB2BA75B430035E252 /* brillxmuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CB122EC2BA75B430035E252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB122D32BA75B410035E252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB122DA2BA75B410035E252;
+			remoteInfo = brillxmu;
+		};
+		5CB122F62BA75B430035E252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB122D32BA75B410035E252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB122DA2BA75B410035E252;
+			remoteInfo = brillxmu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CB122DB2BA75B410035E252 /* brillxmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brillxmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB122DE2BA75B410035E252 /* brillxmuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brillxmuApp.swift; sourceTree = "<group>"; };
+		5CB122E02BA75B410035E252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CB122E22BA75B430035E252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB122E52BA75B430035E252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CB122EB2BA75B430035E252 /* brillxmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brillxmuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB122EF2BA75B430035E252 /* brillxmuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brillxmuTests.swift; sourceTree = "<group>"; };
+		5CB122F52BA75B430035E252 /* brillxmuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brillxmuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB122F92BA75B430035E252 /* brillxmuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brillxmuUITests.swift; sourceTree = "<group>"; };
+		5CB122FB2BA75B430035E252 /* brillxmuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brillxmuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB122D82BA75B410035E252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB122E82BA75B430035E252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB122F22BA75B430035E252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB122D22BA75B410035E252 = {
+			isa = PBXGroup;
+			children = (
+				5CB122DD2BA75B410035E252 /* brillxmu */,
+				5CB122EE2BA75B430035E252 /* brillxmuTests */,
+				5CB122F82BA75B430035E252 /* brillxmuUITests */,
+				5CB122DC2BA75B410035E252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB122DC2BA75B410035E252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB122DB2BA75B410035E252 /* brillxmu.app */,
+				5CB122EB2BA75B430035E252 /* brillxmuTests.xctest */,
+				5CB122F52BA75B430035E252 /* brillxmuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB122DD2BA75B410035E252 /* brillxmu */ = {
+			isa = PBXGroup;
+			children = (
+				5CB122DE2BA75B410035E252 /* brillxmuApp.swift */,
+				5CB122E02BA75B410035E252 /* ContentView.swift */,
+				5CB122E22BA75B430035E252 /* Assets.xcassets */,
+				5CB122E42BA75B430035E252 /* Preview Content */,
+			);
+			path = brillxmu;
+			sourceTree = "<group>";
+		};
+		5CB122E42BA75B430035E252 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5CB122E52BA75B430035E252 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CB122EE2BA75B430035E252 /* brillxmuTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CB122EF2BA75B430035E252 /* brillxmuTests.swift */,
+			);
+			path = brillxmuTests;
+			sourceTree = "<group>";
+		};
+		5CB122F82BA75B430035E252 /* brillxmuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CB122F92BA75B430035E252 /* brillxmuUITests.swift */,
+				5CB122FB2BA75B430035E252 /* brillxmuUITestsLaunchTests.swift */,
+			);
+			path = brillxmuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB122DA2BA75B410035E252 /* brillxmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB122FF2BA75B430035E252 /* Build configuration list for PBXNativeTarget "brillxmu" */;
+			buildPhases = (
+				5CB122D72BA75B410035E252 /* Sources */,
+				5CB122D82BA75B410035E252 /* Frameworks */,
+				5CB122D92BA75B410035E252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brillxmu;
+			productName = brillxmu;
+			productReference = 5CB122DB2BA75B410035E252 /* brillxmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CB122EA2BA75B430035E252 /* brillxmuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB123022BA75B430035E252 /* Build configuration list for PBXNativeTarget "brillxmuTests" */;
+			buildPhases = (
+				5CB122E72BA75B430035E252 /* Sources */,
+				5CB122E82BA75B430035E252 /* Frameworks */,
+				5CB122E92BA75B430035E252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB122ED2BA75B430035E252 /* PBXTargetDependency */,
+			);
+			name = brillxmuTests;
+			productName = brillxmuTests;
+			productReference = 5CB122EB2BA75B430035E252 /* brillxmuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CB122F42BA75B430035E252 /* brillxmuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB123052BA75B430035E252 /* Build configuration list for PBXNativeTarget "brillxmuUITests" */;
+			buildPhases = (
+				5CB122F12BA75B430035E252 /* Sources */,
+				5CB122F22BA75B430035E252 /* Frameworks */,
+				5CB122F32BA75B430035E252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB122F72BA75B430035E252 /* PBXTargetDependency */,
+			);
+			name = brillxmuUITests;
+			productName = brillxmuUITests;
+			productReference = 5CB122F52BA75B430035E252 /* brillxmuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB122D32BA75B410035E252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5CB122DA2BA75B410035E252 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5CB122EA2BA75B430035E252 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5CB122DA2BA75B410035E252;
+					};
+					5CB122F42BA75B430035E252 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5CB122DA2BA75B410035E252;
+					};
+				};
+			};
+			buildConfigurationList = 5CB122D62BA75B410035E252 /* Build configuration list for PBXProject "brillxmu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB122D22BA75B410035E252;
+			productRefGroup = 5CB122DC2BA75B410035E252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB122DA2BA75B410035E252 /* brillxmu */,
+				5CB122EA2BA75B430035E252 /* brillxmuTests */,
+				5CB122F42BA75B430035E252 /* brillxmuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB122D92BA75B410035E252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB122E62BA75B430035E252 /* Preview Assets.xcassets in Resources */,
+				5CB122E32BA75B430035E252 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB122E92BA75B430035E252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB122F32BA75B430035E252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB122D72BA75B410035E252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB122E12BA75B410035E252 /* ContentView.swift in Sources */,
+				5CB122DF2BA75B410035E252 /* brillxmuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB122E72BA75B430035E252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB122F02BA75B430035E252 /* brillxmuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB122F12BA75B430035E252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB122FC2BA75B430035E252 /* brillxmuUITestsLaunchTests.swift in Sources */,
+				5CB122FA2BA75B430035E252 /* brillxmuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB122ED2BA75B430035E252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB122DA2BA75B410035E252 /* brillxmu */;
+			targetProxy = 5CB122EC2BA75B430035E252 /* PBXContainerItemProxy */;
+		};
+		5CB122F72BA75B430035E252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB122DA2BA75B410035E252 /* brillxmu */;
+			targetProxy = 5CB122F62BA75B430035E252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CB122FD2BA75B430035E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CB122FE2BA75B430035E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB123002BA75B430035E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brillxmu/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KNSJCTRWV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brilliantonline.brillxmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CB123012BA75B430035E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brillxmu/Preview Content\"";
+				DEVELOPMENT_TEAM = 2KNSJCTRWV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brilliantonline.brillxmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CB123032BA75B430035E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KNSJCTRWV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brilliantonline.brillxmuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brillxmu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brillxmu";
+			};
+			name = Debug;
+		};
+		5CB123042BA75B430035E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KNSJCTRWV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brilliantonline.brillxmuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brillxmu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brillxmu";
+			};
+			name = Release;
+		};
+		5CB123062BA75B430035E252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KNSJCTRWV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brilliantonline.brillxmuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brillxmu;
+			};
+			name = Debug;
+		};
+		5CB123072BA75B430035E252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KNSJCTRWV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brilliantonline.brillxmuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brillxmu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB122D62BA75B410035E252 /* Build configuration list for PBXProject "brillxmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB122FD2BA75B430035E252 /* Debug */,
+				5CB122FE2BA75B430035E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB122FF2BA75B430035E252 /* Build configuration list for PBXNativeTarget "brillxmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB123002BA75B430035E252 /* Debug */,
+				5CB123012BA75B430035E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB123022BA75B430035E252 /* Build configuration list for PBXNativeTarget "brillxmuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB123032BA75B430035E252 /* Debug */,
+				5CB123042BA75B430035E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB123052BA75B430035E252 /* Build configuration list for PBXNativeTarget "brillxmuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB123062BA75B430035E252 /* Debug */,
+				5CB123072BA75B430035E252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB122D32BA75B410035E252 /* Project object */;
+}
